@@ -78,6 +78,13 @@ header nav ul.links li {
     font-size: 13px;
 }
 
+.btn-normal {
+    padding: 10px 25px;
+    border-radius: 20px;
+    border-style: none;
+    font-size: 16px;
+}
+
 
 /* Button colors pallet */
 .white {
@@ -88,6 +95,7 @@ header nav ul.links li {
 .black {
     background-color: #23272A;
     border-color: currentColor;
+    color: white;
 }
 
 .lilla {
@@ -96,7 +104,49 @@ header nav ul.links li {
 }
 
 
+
 /* Main */
 .hero-img {
     width: 100%;;
 }
+
+.jumbo-container {
+    position: relative;
+}
+
+.jumbo-text {
+    position: absolute;
+    text-align: center;
+    width: 40%;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.jumbo-text h1 {
+    padding-bottom: 20px;
+    font-size: 45px;
+}
+
+.jumbo-text p {
+    font-size: 17px;
+}
+
+.jumbo-text p {
+    line-height: 25px;
+}
+
+.jumbo-text h1,
+.jumbo-text p {
+    color: white;
+}
+
+.jumbo-text div.btn-container {
+    padding: 20px 0;
+}
+
+
+
+
+
+
