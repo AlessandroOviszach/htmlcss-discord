@@ -11,19 +11,94 @@
 
 
 /* tags */
+header {
+    background-color: #255ee9;
+    width: 100%;
+    padding: 30px 0;
+}
 
+header nav {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
+header div.container button {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
 
+a {
+    text-decoration: none;
+    color: black;
+}
 
 
 /* ID */
 
 
 
-
-
 /* utilities */
+.container {
+    position: relative;
+    width: 70%;
+    margin: auto;
+}
+
+/* header */
+.logo {
+    
+}
 
 
 
+.links,
+.links li {
+    display: inline-block;
+}
 
+header nav ul.links li {
+    margin-right: 15px;
+}
+
+.links li a {
+    color: white;
+    text-decoration: none;
+}
+
+.links li:last-child {
+    margin: 0;
+}
+
+.btn-small {
+    padding: 7px 15px;
+    border-radius: 20px;
+    border-style: none;
+    font-size: 13px;
+}
+
+
+/* Button colors pallet */
+.white {
+    background-color: #fff;
+    border-color: currentColor;
+}
+
+.black {
+    background-color: #23272A;
+    border-color: currentColor;
+}
+
+.lilla {
+    background-color: #b6a6d6;
+    border-color: currentColor;
+}
+
+
+/* Main */
+.hero-img {
+    width: 100%;;
+}
